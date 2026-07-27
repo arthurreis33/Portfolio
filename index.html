@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arthur Aragão Reis de Souza — Dados & Estratégia de Negócio</title>
+  <meta name="description" content="Portfólio de Arthur Aragão Reis de Souza: cientista da computação pela CESAR School, consultor de negócios em estratégia, redesenho de processos e dashboards de KPIs.">
+  <meta name="author" content="Arthur Aragão Reis de Souza">
+  <meta property="og:title" content="Arthur Aragão Reis de Souza — Dados & Estratégia de Negócio">
+  <meta property="og:description" content="Base técnica em Ciência da Computação unida à visão de negócio para transformar dados em decisão.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%234c7dff'/><text x='50' y='68' font-family='Segoe UI,Arial' font-size='52' font-weight='700' fill='white' text-anchor='middle'>AR</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Aplica o tema antes da primeira pintura, evitando piscada de cor. -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("portfolio-tema");
+        if (t !== "dark" && t !== "light") {
+          t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+        }
+        document.documentElement.setAttribute("data-theme", t);
+      } catch (e) { /* localStorage bloqueado: mantém o tema padrão */ }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand__mark" aria-hidden="true">AR</span>
+        <span>
+          <span class="brand__name">Arthur Reis</span>
+          <span class="brand__role">Dados &amp; Estratégia de Negócio</span>
+        </span>
+      </a>
+
+      <ul class="nav__menu" id="menu-principal">
+        <li><a class="nav__link" href="index.html" aria-current="page">Início</a></li>
+        <li><a class="nav__link" href="sobre.html">Sobre</a></li>
+        <li><a class="nav__link" href="experiencia.html">Experiência</a></li>
+        <li><a class="nav__link" href="projetos.html">Projetos</a></li>
+        <li><a class="nav__link" href="contato.html">Contato</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button type="button" class="icon-btn theme-toggle" aria-label="Alternar tema">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>
+          </svg>
+        </button>
+
+        <button type="button" class="icon-btn nav__toggle" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="reveal">
+          <span class="hero__status">
+            <span class="dot" aria-hidden="true"></span>
+            Consultor de negócios na Visagio
+          </span>
+
+          <h1>
+            <span class="hero__title-line">Transformo dados</span>
+            <span class="hero__title-line text-gradient">em decisão de negócio.</span>
+          </h1>
+
+          <p class="hero__desc">
+            Formado em Ciência da Computação pela CESAR School. Atuo em projetos de
+            estratégia, redesenho de processos e construção de dashboards de KPIs para
+            grandes empresas — unindo base técnica à visão de negócio.
+          </p>
+
+          <div class="btn-row">
+            <a class="btn btn--primary" href="projetos.html">
+              Ver projetos
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="17" height="17" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6"/>
+              </svg>
+            </a>
+            <a class="btn btn--ghost" href="contato.html">Falar comigo</a>
+          </div>
+        </div>
+
+        <aside class="profile-card reveal">
+          <div class="profile-card__avatar" aria-hidden="true">AR</div>
+          <h2>Arthur Aragão Reis de Souza</h2>
+          <p class="profile-card__role">Dados &amp; Estratégia de Negócio</p>
+
+          <ul class="profile-card__list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 21s-7-4.5-7-10a7 7 0 1 1 14 0c0 5.5-7 10-7 10z"/><circle cx="12" cy="11" r="2.5"/>
+              </svg>
+              Recife, Pernambuco — Brasil
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 10v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"/><path d="M6 6V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2"/>
+              </svg>
+              Bacharel em Ciência da Computação
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.8 3.8 9S14.5 18.3 12 21c-2.5-2.7-3.8-5.8-3.8-9S9.5 5.7 12 3z"/>
+              </svg>
+              Inglês avançado
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16v16H4z" opacity="0"/><path d="m3 7 9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/>
+              </svg>
+              <a href="mailto:arthur.ars33@gmail.com">arthur.ars33@gmail.com</a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+
+    </section>
+
+    <!-- ===== O que eu faço ===== -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">O que eu faço</span>
+          <h2>Da pergunta de negócio ao painel que sustenta a decisão</h2>
+          <p>
+            Trabalho na fronteira entre tecnologia e gestão: entendo o problema com quem
+            vive a operação, estruturo o dado e devolvo algo que a liderança consegue usar.
+          </p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3v18h18"/><path d="M7 15l3.5-4 3 3L20 7"/>
+              </svg>
+            </div>
+            <h3>Dados &amp; dashboards de KPIs</h3>
+            <p>
+              Definição de indicadores e construção de painéis em Power BI que dão
+              visibilidade de performance à liderança, com SQL e Python por trás.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M8.5 6H15a3 3 0 0 1 3 3v6.5"/><path d="M6 8.5V15a3 3 0 0 0 3 3h6.5"/>
+              </svg>
+            </div>
+            <h3>Redesenho de processos</h3>
+            <p>
+              Mapeamento de cadeias como order-to-cash e supply chain, ritos de gestão e
+              automações que reduzem retrabalho manual entre as áreas.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3v18"/><path d="M5 8h9a3 3 0 0 1 0 6H6"/>
+              </svg>
+            </div>
+            <h3>Estratégia &amp; produto</h3>
+            <p>
+              Pesquisa de mercado, análise de concorrência, modelagem financeira e desenho
+              de modelo de negócio — da validação em campo ao roadmap do produto.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experiência resumida ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Trajetória</span>
+          <h2>Onde eu estive</h2>
+          <p>
+            Consultoria para grandes empresas e a construção de um produto digital do zero,
+            como cofundador.
+          </p>
+        </div>
+
+        <ul class="timeline">
+          <li class="timeline__item reveal">
+            <span class="timeline__period">Set/2025 — Atual</span>
+            <h3 class="timeline__title">Consultor de Negócios</h3>
+            <span class="timeline__org">Visagio</span>
+            <div class="timeline__body">
+              <p>
+                Projetos de estratégia, processos e dados em óleo &amp; gás, bens de consumo
+                e bebidas funcionais.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal">
+            <span class="timeline__period">Nov/2024 — Dez/2025</span>
+            <h3 class="timeline__title">Cofundador</h3>
+            <span class="timeline__org">Skanboo</span>
+            <div class="timeline__body">
+              <p>
+                Produto digital B2B2C concebido do zero: pesquisa com usuários, modelo de
+                negócio, precificação e lançamento.
+              </p>
+            </div>
+          </li>
+        </ul>
+
+        <div class="btn-row reveal">
+          <a class="btn btn--ghost" href="experiencia.html">Ver experiência completa</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projetos em destaque ===== -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Projetos acadêmicos</span>
+          <h2>Em destaque</h2>
+          <p>
+            Uma seleção do que construí durante a graduação em Ciência da Computação na
+            CESAR School.
+          </p>
+        </div>
+
+        <ul class="projects" data-projetos-destaque></ul>
+
+        <div class="btn-row reveal">
+          <a class="btn btn--ghost" href="projetos.html">Ver todos os projetos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Chamada final ===== -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta reveal">
+          <h2>Vamos conversar?</h2>
+          <p>
+            Estou aberto a trocar sobre dados, estratégia e produto — seja uma oportunidade,
+            uma parceria ou uma dúvida.
+          </p>
+          <div class="btn-row">
+            <a class="btn btn--primary" href="contato.html">Entrar em contato</a>
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/arthur-a-reis" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© <span data-ano>2026</span> Arthur Aragão Reis de Souza</p>
+      <ul class="footer__links">
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="experiencia.html">Experiência</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="https://www.linkedin.com/in/arthur-a-reis" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="assets/js/projetos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
